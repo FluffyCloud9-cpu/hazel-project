@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial, sans-serif';
+    background: url('https://img.freepik.com/premium-vector/bakery-products-beige-vector-seamless-pattern_554517-501.jpg?w=740') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 100px auto 50px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product {
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    padding: 0 10px 10px 10px;
+}
+
+.product:hover {
+    border-color: #ff6347;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
